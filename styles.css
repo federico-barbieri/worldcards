@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 20px;
+}
+
+
+/* FIRST PHONE - LOGO + 2 BUTTONS */
+
+.phone1{
+  width: 480px;
+  height: 800px;
+
+  margin: 50px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 3px 5px 8px;
+}
+
+.logo-phone1{
+  font-family: 'Anton', sans-serif;
+  color: #3C5186;
+  font-size: 2.5rem;
+}
+
+.cta-phone1{
+  color: #3C5186;
+  transform: translateY(50px);
+  font-family: 'Anton', sans-serif;
+}
+
+
+.btns-phone1{
+  display: flex;
+  flex-direction: column;
+  transform: translateY(200px);
+  height: 100px;
+  justify-content: space-between;
+}
+
+.login-btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #F9F9F9;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.login-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+.signup-btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.signup-btn:hover{
+  background-color: black;
+  color: white;
+}
