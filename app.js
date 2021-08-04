@@ -1,9 +1,8 @@
-const logo = document.querySelector('.logo-phone1');
+const title = document.querySelector('.lio-title');
 
-let randomColor;
+console.log(title);
 
-logo.addEventListener('mouseover', () => {
-
-logo.style.color = "green";
-
+title.addEventListener("click", () => {
+  title.display.color = "#716F81";
+  console.log('sup');
 })
