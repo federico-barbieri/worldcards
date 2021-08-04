@@ -43,8 +43,15 @@ html{
   font-family: 'Archivo Black', sans-serif;
   position: absolute;
   color: #411F1F;
-  font-size: 3.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
+}
 
-
+.lio-title2{
+  font-family: 'Archivo Black', sans-serif;
+  position: absolute;
+  color: #FFAA4C;
+  font-size: 0.7rem;
+  font-weight: bold;
+  transform: translate(10px, 130px);
 }
