@@ -8,6 +8,11 @@ html{
   font-size: 20px;
 }
 
+.diseños {
+  display: flex;
+  flex-direction: row;
+}
+
 
 /* FIRST PHONE - LOGO + 2 BUTTONS */
 
@@ -23,6 +28,8 @@ html{
   border: 2px solid black;
 
   box-shadow: 9px 12px 8px;
+
+  transform: scale(0.8);
 }
 
 .messi2014{
