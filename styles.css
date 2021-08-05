@@ -49,9 +49,12 @@ html{
 .lio-title{
   font-family: 'Archivo Black', sans-serif;
   position: absolute;
-  color: #411F1F;
-  font-size: 1.7rem;
+  color: #DEEDF0;
+  font-size: 1.5rem;
   font-weight: bold;
+  padding-left: 20px;
+  padding-top: 15px;
+  text-align: center;
 }
 
 .lio-title2{
@@ -60,5 +63,11 @@ html{
   color: #FFAA4C;
   font-size: 0.7rem;
   font-weight: bold;
-  transform: translate(10px, 130px);
+  transform: translate(130px, 65px);
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.messi-iran{
+  transform: scale(0.5) translate(-630px, -808px);
 }
