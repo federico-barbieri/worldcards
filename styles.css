@@ -28,8 +28,15 @@ html{
   border: 2px solid black;
 
   box-shadow: 9px 12px 8px;
-
   transform: scale(0.8);
+
+  transition: transform 3s, background 0.5s ease-in;
+
+}
+
+.phone1:hover{
+  background: linear-gradient(130deg, rgba(0, 57, 166,1) 0%, rgba(213, 43, 30,1) 100%);
+  transform: scale(1);
 }
 
 .messi2014{
