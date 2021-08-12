@@ -8,6 +8,10 @@ html{
   font-size: 20px;
 }
 
+.container{
+  max-width: 480px;
+}
+
 
 #messi{
   display: flex;
@@ -31,7 +35,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-width: 400px;
+max-width: 480px;
 height: 700px;
 margin: 0 auto;
 }
@@ -44,6 +48,7 @@ margin: 0 auto;
 
 .image2006:hover{
   filter: drop-shadow(5px 5px 7px);
+  cursor: pointer;
 }
 
 /* icons */
@@ -51,7 +56,7 @@ margin: 0 auto;
 .icons2006{
   display: flex;
   flex-direction: row;
-  width: 400px;
+  max-width: 480px;
   align-items: center;
   justify-content: space-between;
   text-align: center;
@@ -67,6 +72,7 @@ margin: 0 auto;
 
 .ball-icon-2006:hover{
     color: #0F52BA;
+    cursor: pointer;
 }
 
 .magic-icon-2006{
@@ -78,6 +84,7 @@ margin: 0 auto;
 
 .magic-icon-2006:hover{
     color: #0F52BA;
+    cursor: pointer;
 }
 
 .icons2006-text{
@@ -93,7 +100,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-width: 400px;
+max-width: 480px;
 height: 700px;
 margin: 0 auto;
 transform: translateY(-200px);
@@ -108,6 +115,7 @@ transform: translateY(-200px);
 
 .image2010:hover{
   filter: drop-shadow(5px 5px 7px);
+  cursor: pointer;
 }
 
 /* icons */
@@ -115,7 +123,7 @@ transform: translateY(-200px);
 .icons2010{
   display: flex;
   flex-direction: row;
-  width: 400px;
+  max-width: 480px;
   align-items: center;
   justify-content: space-between;
   text-align: center;
@@ -131,6 +139,7 @@ transform: translateY(-200px);
 
 .ball-icon-2010:hover{
     color: #0F52BA;
+    cursor: pointer;
 }
 
 .magic-icon-2010{
@@ -142,6 +151,7 @@ transform: translateY(-200px);
 
 .magic-icon-2010:hover{
     color: #0F52BA;
+    cursor: pointer;
 }
 
 .icons2010-text{
