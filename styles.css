@@ -31,13 +31,13 @@ ul{
   display: flex;
   flex-direction: row;
   margin: 20px auto 0 auto;
-  width: 50%;
+  width: 70%;
   justify-content: space-between;
 
 }
 
 li{
-
+  font-size: 2rem;
   list-style: none;
 }
 
@@ -69,6 +69,22 @@ li{
   align-items: center;
   height: 200px;
   color: #FF4848;
+  margin-top: 100px;
+}
+
+.log-in-btn{
+  background-color: #082032;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 50px 15px 50px;
+}
+
+.sign-up-btn{
+  background-color: #082032;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 40px 15px 40px;
+  margin-top: 40px;
 }
 
 
