@@ -99,7 +99,7 @@ margin: 0 auto;
 /* img */
 
 .image2010{
-
+padding-bottom: 20px;
 }
 
 
@@ -134,5 +134,60 @@ margin: 0 auto;
 
 
 .icons2010-text{
+  font-family: 'Archivo Black', sans-serif;
+}
+
+/* 2014 */
+
+.mundial2014{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+max-width: 768px;
+height: 800px;
+margin: 0 auto;
+
+}
+
+
+/* img */
+
+.image2014{
+padding-bottom: 20px;
+}
+
+
+
+/* icons */
+
+.icons2014{
+  display: flex;
+  flex-direction: row;
+  min-width: 350px;
+  max-width: 768px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.ball-icon-2014{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.magic-icon-2014{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icons2014-text{
   font-family: 'Archivo Black', sans-serif;
 }
