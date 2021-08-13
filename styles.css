@@ -22,7 +22,7 @@ nav{
   text-align: center;
   font-family: 'Nova Mono', monospace;
   max-width: 768px;
-  height: 100px;
+  height: 30px;
   margin: 0px auto 0px auto;
 
 }
@@ -62,7 +62,7 @@ li{
 }
 
 .world-cards-second-title{
-  margin: 50px auto 80px auto;
+  margin: 50px auto 50px auto;
   font-size: 3rem;
   text-align: center;
 }
