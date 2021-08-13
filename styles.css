@@ -24,7 +24,7 @@ html{
 .leo-messi-title{
   font-family: 'Archivo Black', sans-serif;
   margin: 100px auto;
-  font-size: 2rem;
+  font-size: 5rem;
   text-align: center;
 }
 
@@ -35,20 +35,17 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-max-width: 480px;
-height: 700px;
-margin: 0 auto;
+min-width: 480px;
+max-width: 768px;
+height: 100%;
+margin: 0 auto 50px auto;
+
 }
 
 /* img */
 
 .image2006{
-  transform: scale(0.5) translateY(-350px);
-}
-
-.image2006:hover{
-  filter: drop-shadow(5px 5px 7px);
-  cursor: pointer;
+padding-bottom: 20px;
 }
 
 /* icons */
@@ -56,11 +53,12 @@ margin: 0 auto;
 .icons2006{
   display: flex;
   flex-direction: row;
-  max-width: 480px;
+  min-width: 350px;
+  max-width: 768px;
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  transform: translateY(-300px);
+
 }
 
 .ball-icon-2006{
@@ -70,21 +68,11 @@ margin: 0 auto;
   justify-content: center;
 }
 
-.ball-icon-2006:hover{
-    color: #0F52BA;
-    cursor: pointer;
-}
-
 .magic-icon-2006{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.magic-icon-2006:hover{
-    color: #0F52BA;
-    cursor: pointer;
 }
 
 .icons2006-text{
@@ -100,34 +88,33 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-max-width: 480px;
+min-width: 480px;
+max-width: 768px;
 height: 700px;
 margin: 0 auto;
-transform: translateY(-200px);
+
 }
 
 
 /* img */
 
 .image2010{
-  transform: scale(0.55) translateY(-350px);
+
 }
 
-.image2010:hover{
-  filter: drop-shadow(5px 5px 7px);
-  cursor: pointer;
-}
+
 
 /* icons */
 
 .icons2010{
   display: flex;
   flex-direction: row;
-  max-width: 480px;
+  min-width: 350px;
+  max-width: 768px;
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  transform: translateY(-300px);
+
 }
 
 .ball-icon-2010{
@@ -137,10 +124,6 @@ transform: translateY(-200px);
   justify-content: center;
 }
 
-.ball-icon-2010:hover{
-    color: #0F52BA;
-    cursor: pointer;
-}
 
 .magic-icon-2010{
   display: flex;
@@ -149,10 +132,6 @@ transform: translateY(-200px);
   justify-content: center;
 }
 
-.magic-icon-2010:hover{
-    color: #0F52BA;
-    cursor: pointer;
-}
 
 .icons2010-text{
   font-family: 'Archivo Black', sans-serif;
