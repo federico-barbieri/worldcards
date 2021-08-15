@@ -129,11 +129,15 @@ nav{
 }
 
 .jules-rimet{
-  transform: scale(0.5);
+  transform: scale(0.3);
+  width: 100%;
+  height: auto;
 }
 
 .actual-cup{
-  transform: scale(0.5);
+  transform: scale(0.3);
+  width: 100%;
+  height: auto;
 }
 
 .ul-second-screen{
