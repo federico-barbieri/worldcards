@@ -108,9 +108,13 @@ nav{
 }
 
 .own-a-piece-of-history-title{
-  margin: 100px 0px 50px 30px;
-  font-size: 4rem;
+  margin: 200px 0px 50px 30px;
+  font-size: 3rem;
   text-align: left;
+}
+
+.diego-second-screen{
+  transform: scale(0.5);
 }
 
 .ul-second-screen{
@@ -123,6 +127,8 @@ nav{
 .li-second-screen{
   font-size: 2rem;
 }
+
+
 
 
 
