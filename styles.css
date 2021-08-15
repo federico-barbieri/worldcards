@@ -102,19 +102,38 @@ nav{
   display: grid;
   grid-template-columns: repeat(2, 50%);
   max-width: 100%;
-  height: 1000px;
+  height: 2000px;
 
   background-color: #FDEFEF;
 }
 
 .own-a-piece-of-history-title{
-  margin: 200px 0px 50px 30px;
+  margin: 200px 0px 20px 30px;
   font-size: 3.5rem;
   text-align: left;
 }
 
 .diego-second-screen{
   transform: scale(0.7);
+}
+
+.browse-through-competitions-title{
+  margin: 200px 0px 20px 30px;
+  font-size: 3.5rem;
+  text-align: right;
+}
+
+.cups-second-screen{
+  display: flex;
+  flex-direction: row;
+}
+
+.jules-rimet{
+  transform: scale(0.5);
+}
+
+.actual-cup{
+  transform: scale(0.5);
 }
 
 .ul-second-screen{
