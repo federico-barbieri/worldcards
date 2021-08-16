@@ -160,7 +160,11 @@ nav{
   font-size: 3.5rem;
   text-align: left;
   display: inline;
+}
 
+.filter-by-player-players{
+  display: flex;
+  flex-direction: row;
 }
 
 .ul-second-screen{
