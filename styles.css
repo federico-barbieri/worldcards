@@ -117,11 +117,12 @@ nav{
 }
 
 .diego-second-screen{
-  transform: scale(0.7) translateY(100px);
+  transform: scale(0.7);
+  margin-top: 200px;
 }
 
 .browse-through-history-title{
-  margin: 200px 40px 20px 0px;
+  margin: 300px 40px 20px 0px;
   font-size: 3.5rem;
   text-align: right;
   display: inline;
@@ -129,7 +130,8 @@ nav{
 }
 
 .old-ball{
-  transform: scale(0.1);
+  margin-top: 300px;
+  margin-left: 50px;
 
 
 
@@ -154,11 +156,11 @@ nav{
 }
 
 .filter-by-player-title{
-  margin: 200px 0px 20px 30px;
+  margin: 300px 0px 20px 30px;
   font-size: 3.5rem;
   text-align: left;
-  display: inline-block;
-  max-width: 50%;
+  display: inline;
+
 }
 
 .ul-second-screen{
