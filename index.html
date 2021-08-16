@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
 
+      <!-- AOS ANIMATIONS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/53fa46f6ac.js" crossorigin="anonymous"></script>
 
@@ -57,18 +60,20 @@
 
 <div class="second-screen">
 
-    <h3 class="own-a-piece-of-history-title">OWN <br>A PIECE <br>OF HISTORY.</h3>
+    <h3 class="own-a-piece-of-history-title" data-aos="fade-right">OWN <br>A PIECE <br>OF FOOTBALL.</h3>
 
-    <img class="diego-second-screen" src="messicard/diego1.png" alt="">
+    <img class="diego-second-screen" data-aos="fade-left" src="messicard/diego1.png" alt="">
 
+<img class="old-ball" data-aos="fade-right" src="messicard/old-ball.png" alt="">
 
-
+<!--
   <div class="cups-second-screen">
     <img class="jules-rimet" src="messicard/copajulesrimet.png" alt="">
     <img class="actual-cup" src="messicard/copadelmundo.png" alt="">
   </div>
+-->
 
-  <h3 class="browse-through-competitions-title">BROWSE THROUGH COMPETITIONS.</h3>
+  <h3 class="browse-through-competitions-title" data-aos="fade-left">BROWSE THROUGH HISTORY.</h3>
 
 
   <h3 class="filter-by-player-title">FILTER BY PLAYER</h3>
@@ -217,5 +222,13 @@
 
 
 <script src="app.js" charset="utf-8"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({
+ offset: 200,
+ duration: 500
+});
+</script>
   </body>
 </html>
