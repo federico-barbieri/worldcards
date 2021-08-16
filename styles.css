@@ -109,7 +109,7 @@ nav{
   background-color: #FDEFEF;
 }
 
-.own-a-piece-of-history-title{
+.own-a-piece-of-football-title{
   margin: 200px 0px 20px 30px;
   font-size: 3.5rem;
   text-align: left;
@@ -120,12 +120,12 @@ nav{
   transform: scale(0.7) translateY(100px);
 }
 
-.browse-through-competitions-title{
-  margin: 200px 30px 20px 0px;
+.browse-through-history-title{
+  margin: 200px 40px 20px 0px;
   font-size: 3.5rem;
   text-align: right;
-  display: inline-block;
-  max-width: 50%;
+  display: inline;
+
 }
 
 .old-ball{
