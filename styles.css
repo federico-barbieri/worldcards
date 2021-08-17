@@ -137,17 +137,20 @@ nav{
 
 
 .filter-by-player-title{
-  margin: 100px 0px 20px 30px;
+  margin: 0px 0px 20px 30px;
   font-size: 3.5rem;
   text-align: left;
   display: inline-block;
-  
+
 
 }
 
 .filter-by-player-players{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.messi-neymar-cards{
 
 }
 
