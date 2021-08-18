@@ -123,8 +123,9 @@ nav{
 
 }
 
-.old-ball{
+.world-cup-balls{
   margin: 300px 0px 300px 50px;
+  max-width: 100%;
 }
 
 
@@ -242,7 +243,7 @@ padding-bottom: 20px;
 }
 
 .icons2006-text{
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Nova Mono', monospace;
 }
 
 
@@ -310,7 +311,7 @@ transform: scale(1.1) translateX(15px);
 
 
 .icons2010-text{
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Nova Mono', monospace;
 }
 
 /* 2014 */
@@ -375,7 +376,7 @@ transform: scale(1.13);
 
 
 .icons2014-text{
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Nova Mono', monospace;
 }
 
 /* 2018 */
@@ -441,7 +442,7 @@ transform: scale(1.16) translateX(-15px);
 }
 
 .icons2018-text{
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Nova Mono', monospace;
 
 }
 
