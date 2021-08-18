@@ -90,9 +90,10 @@ nav{
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  height: 1550px;
+  height: 1750px;
   align-items: center;
   background-color: #FDEFEF;
+  padding-bottom: 50px;
 }
 
 .how-does-it-work-title{
