@@ -84,10 +84,33 @@ nav{
 
 }
 
-/* SECOND SCREEN */
+/* ABOUT */
+
+#about{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 2000px;
+  align-items: center;
+  background-color: #FDEFEF;
+}
+
+.how-does-it-work-title{
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.p-broadcasting-rights{
+  text-align: left;
+  max-width: 80%;
+  font-size: 1.5rem;
+  margin: 20px auto 0px auto;
+}
+
+/* MARKET */
 
 
-#secondscreen{
+#market{
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: repeat(3, 1fr);
@@ -95,7 +118,6 @@ nav{
   height: 2700px;
   align-items: center;
   justify-content: center;
-
   background-color: #FDEFEF;
 }
 
