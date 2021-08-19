@@ -221,6 +221,7 @@ nav{
   #market{
     display: grid;
     grid-template-columns: repeat(2, 500px);
+    column-gap: 10rem;
     max-width: 100%;
     height: 2400px;
 
