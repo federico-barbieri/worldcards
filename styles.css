@@ -43,6 +43,13 @@ nav{
   text-shadow: 5px 5px 6px #082032;
 }
 
+@media only screen and (min-width: 989px){
+  .li-nav:hover{
+    color: black;
+    cursor: pointer;
+  }
+}
+
 
 /* MAIN SCREEN */
 
@@ -109,9 +116,14 @@ nav{
   text-shadow: 2px 2px 0px #082032;
 }
 .wallet-connect{
-
   margin-top: 80px;
   font-size: 1.5rem;
+}
+
+.wallet-connect:hover{
+  background-color: white;
+  color:  #082032;
+  filter: drop-shadow(5px 5px 8px #082032)
 }
 
 }
