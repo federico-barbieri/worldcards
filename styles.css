@@ -43,11 +43,9 @@ nav{
   text-shadow: 5px 5px 6px #082032;
 }
 
-@media only screen and (min-width: 989px){
-  .li-nav:hover{
-    color: black;
-    cursor: pointer;
-  }
+.li-nav:hover{
+  color: black;
+  cursor: pointer;
 }
 
 
@@ -90,7 +88,13 @@ nav{
   padding: 15px 40px 15px 40px;
   margin-top: 100px;
   font-size: 2rem;
-  filter: drop-shadow(5px 5px 8px #082032) ;
+  filter: drop-shadow(5px 5px 8px #082032);
+}
+
+.wallet-connect:hover{
+  background-color: white;
+  color:  #082032;
+  filter: drop-shadow(5px 5px 8px #082032)
 }
 
 @media only screen and (min-width: 989px){
@@ -118,12 +122,6 @@ nav{
 .wallet-connect{
   margin-top: 80px;
   font-size: 1.5rem;
-}
-
-.wallet-connect:hover{
-  background-color: white;
-  color:  #082032;
-  filter: drop-shadow(5px 5px 8px #082032)
 }
 
 }
