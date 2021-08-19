@@ -152,6 +152,18 @@ nav{
   line-height: 3.5rem;
 }
 
+@media only screen and (max-width: 460px){
+  #about{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 2500px;
+    align-items: center;
+    background-color: #FDEFEF;
+    padding-bottom: 50px;
+  }
+}
+
 /* MARKET */
 
 @media only screen and (max-width: 989px){
@@ -165,7 +177,6 @@ nav{
     height: 2400px;
     align-items: center;
     justify-content: center;
-    /*background-color: #FDEFEF;*/
     background: rgb(174,172,194);
     background: linear-gradient(100deg, rgba(174,172,194,1) 0%, rgba(97,124,186,1) 100%);
     padding-bottom: 12rem;
@@ -209,13 +220,16 @@ nav{
     display: inline;
     color: #082032;
     text-shadow: 2px 2px 0px #082032;
+    font-family: 'Nova Mono', monospace;
 
 
   }
 
-  .filter-by-player-players{
-    display: flex;
-    flex-direction: column;
+  .messi-neymar-cards{
+    display: inline;
+    margin: 0px 30px 20px 0;
+    width: 80%;
+    margin-left: 100px;
   }
 
 
@@ -225,11 +239,11 @@ nav{
 @media only screen and (min-width: 990px){
   #market{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 550px);
     grid-template-rows: repeat(3, 1fr);
-    column-gap: 2rem;
+    column-gap: 10rem;
     max-width: 100%;
-    height: 2400px;
+    height: 2700px;
     align-items: center;
     justify-content: center;
     background: rgb(174,172,194);
@@ -265,7 +279,6 @@ nav{
   .world-cup-balls{
     margin: 100px 0px 150px 50px;
     width: 90%;
-
   }
 
 
@@ -274,11 +287,14 @@ nav{
     font-size: 5rem;
     text-align: left;
     display: inline;
+    font-family: 'Nova Mono', monospace;
   }
 
-  .filter-by-player-players{
-    display: flex;
-    flex-direction: row;
+  .messi-neymar-cards{
+    display: inline;
+    margin: 170px 0 20px auto;
+    max-width: 100%;
+    margin-right: 50px;
   }
 
 
