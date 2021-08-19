@@ -16,6 +16,11 @@ html{
   font-family: 'Nova Mono', monospace;
 }
 
+a {
+text-decoration: none;
+
+}
+
 nav{
   display: flex;
   justify-content: center;
@@ -24,6 +29,7 @@ nav{
   max-width: 768px;
   height: 150px;
   margin: 0px auto 0px auto;
+
 }
 
 .ul-nav{
@@ -34,6 +40,7 @@ nav{
   justify-content: space-between;
 
 
+
 }
 
 .li-nav{
@@ -41,6 +48,8 @@ nav{
   list-style: none;
   color: #FDEFEF;
   text-shadow: 5px 5px 6px #082032;
+  text-decoration: none;
+  text-decoration-style: none;
 }
 
 .li-nav:hover{
