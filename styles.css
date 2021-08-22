@@ -137,10 +137,12 @@ nav{
 
 /* ABOUT */
 
+@media only screen and (max-width: 988px){
+
 #about{
 
   max-width: 80%;
-  height: 110rem;
+  height: 150rem;
 
   background: rgb(80,118,193);
   background: linear-gradient(325deg, rgba(80,118,193,1) 0%, rgba(255,255,255,1) 100%);
@@ -150,225 +152,72 @@ nav{
 
 .how-does-it-work-title{
   font-size: 4rem;
-  margin: 200px auto 100px auto;
+  margin: 2rem auto 2rem auto;
   text-align: center;
+  padding-top: 5rem;
 }
 
-.how-it-works-grid{
-display: grid;
-grid-template-columns: 100%;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-grid-row-gap: 2rem;
-height: 50rem;
+.how-it-works{
+display: flex;
+flex-direction: column;
+height: 110rem;
 justify-content: center;
 align-items: center;
-max-width: 80%;
-margin: 1rem auto 2rem auto;
-border: 1px solid gray;
+max-width: 100%;
+margin: 10rem auto 2rem auto;
 
+overflow: hidden;
+}
+
+.flex-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  max-width: 65vw;
+
+  margin: 3rem auto 0 auto;
 }
 
 .svg-img-about{
   transform: scale(0.3);
-
-  display: inline;
-
 }
 
-.flex-test{
-  display: flex;
-  flex-direction: row;
-  font-size: 2rem;
-  align-items: center;
-  transform: scale(0.5);
-  max-width: 800px;
-  justify-content: space-evenly;
-  margin: 5rem auto 2rem auto;
+.s-about{
+  font-size: 1rem;
+  text-align: center;
 }
 
-/*
-.about-broadcast{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 50rem;
-  margin: 1rem auto 2rem auto;
-  height: 15rem;
-  text-align: left;
-  border: 1px solid gray;
+.s-broadcasting{
+  transform: translateY(250px);
+  font-family: 'Oswald', sans-serif;
+  max-width: 80%;
 }
 
-.about-mint{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 1rem auto 2rem auto;
-  height: 15rem;
-  max-width: 50rem;
+.s-mint{
+  transform: translateY(150px);
+  font-family: 'Oswald', sans-serif;
+  max-width: 80%;
 }
 
-.about-access{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem auto 2rem auto;
-  height: 15rem;
-  max-width: 50rem;
+.s-access{
+  transform: translateY(150px);
+  font-family: 'Oswald', sans-serif;
+  max-width: 80%;
 }
 
-.about-hodl{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem auto 2rem auto;
-  height: 15rem;
-  max-width: 50rem;
+.s-hodl{
+  transform: translateY(200px);
+  font-family: 'Oswald', sans-serif;
+  max-width: 80%;
 }
-*/
-
-
-
-
-
-
-/* MARKET */
-
-@media only screen and (max-width: 989px){
-
-  #market{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: none;
-    max-width: 100%;
-    height: 2400px;
-    align-items: center;
-    justify-content: center;
-    background: rgb(174,172,194);
-    background: linear-gradient(100deg, rgba(174,172,194,1) 0%, rgba(97,124,186,1) 100%);
-    padding-bottom: 12rem;
-  }
-
-  .own-a-piece-of-football-title{
-    margin: 150px 0px 150px 30px;
-    font-size: 3.5rem;
-    text-align: left;
-    display: inline;
-    visibility: visible;
-    color: #082032;
-    text-shadow: 2px 2px 0px #082032;
-  }
-
-  .diego-second-screen{
-    transform: scale(0.7);
-    margin: 150px 30px 150px 0px;
-  }
-
-  .browse-through-history-title{
-    margin: 100px 40px 150px 0px;
-    font-size: 3.5rem;
-    text-align: right;
-    display: inline;
-    color: #082032;
-    text-shadow: 2px 2px 0px #082032;
-
-  }
-
-  .world-cup-balls{
-    margin: 100px 0px 150px 20px;
-    max-width: 100%;
-  }
-
-
-  .filter-by-player-title{
-    margin: 0px 0px 20px 30px;
-    font-size: 3.5rem;
-    text-align: left;
-    display: inline;
-    color: #082032;
-    text-shadow: 2px 2px 0px #082032;
-    font-family: 'Nova Mono', monospace;
-
-
-  }
-
-  .messi-neymar-cards{
-    display: inline;
-    margin: 0px 30px 20px 0;
-    width: 80%;
-    margin-left: 100px;
-  }
 
 
 }
 
 
-@media only screen and (min-width: 990px){
-  #market{
-    display: grid;
-    grid-template-columns: repeat(2, 550px);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: 10rem;
-    max-width: 100%;
-    height: 2500px;
-    align-items: center;
-    justify-content: center;
-    background: rgb(174,172,194);
-    background: linear-gradient(100deg, rgba(174,172,194,1) 0%, rgba(97,124,186,1) 100%);
-    padding-bottom: 12rem;
-  }
 
-
-  .own-a-piece-of-football-title{
-    margin: 150px auto 150px auto;
-    font-size: 4rem;
-    text-align: left;
-    display: inline;
-    color: #082032;
-    text-shadow: 2px 2px 0px #082032;
-  }
-
-  .diego-second-screen{
-    margin: 150px auto 150px auto;
-  }
-
-  .browse-through-history-title{
-    margin: 0 auto 150px auto;
-    font-size: 4rem;
-    text-align: right;
-    display: inline;
-    align-self: flex-start;
-    color: #082032;
-    text-shadow: 2px 2px 0px #082032;
-
-  }
-
-  .world-cup-balls{
-    margin: 100px 0px 150px 50px;
-    width: 90%;
-  }
-
-
-  .filter-by-player-title{
-    margin: 120px auto 20px auto;
-    font-size: 5rem;
-    text-align: left;
-    display: inline;
-    font-family: 'Nova Mono', monospace;
-  }
-
-  .messi-neymar-cards{
-    display: inline;
-    margin: 120px 50px 20px auto;
-    max-width: 100%;
-  }
-
-
-}
 
 
 
