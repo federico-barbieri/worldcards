@@ -177,7 +177,7 @@ overflow: hidden;
   height: 25rem;
   max-width: 65vw;
 
-  margin: 3rem auto 0 auto;
+  margin: 3rem auto 1rem auto;
 }
 
 .svg-img-about{
@@ -202,7 +202,7 @@ overflow: hidden;
 }
 
 .s-access{
-  transform: translateY(150px);
+  transform: translateY(200px);
   font-family: 'Oswald', sans-serif;
   max-width: 80%;
 }
@@ -211,6 +211,7 @@ overflow: hidden;
   transform: translateY(200px);
   font-family: 'Oswald', sans-serif;
   max-width: 80%;
+  padding-bottom: 50px;
 }
 
 
