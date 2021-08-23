@@ -200,7 +200,7 @@ transform: scale(1.01) translateX(1.2rem);
 #about{
 
   max-width: 80%;
-  height: 150rem;
+  height: 175rem;
 
   background: rgb(80,118,193);
   background: linear-gradient(325deg, rgba(80,118,193,1) 0%, rgba(255,255,255,1) 100%);
@@ -256,19 +256,22 @@ overflow: hidden;
   transform: translateY(150px);
   font-family: 'Oswald', sans-serif;
   max-width: 80%;
+  padding-top: 5rem;
 }
 
 .s-access{
   transform: translateY(200px);
   font-family: 'Oswald', sans-serif;
   max-width: 80%;
+  padding-top: 8rem;
 }
 
 .s-hodl{
   transform: translateY(200px);
   font-family: 'Oswald', sans-serif;
   max-width: 80%;
-  padding-bottom: 50px;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
 }
 
 .about-get-started-btn{
@@ -280,7 +283,8 @@ overflow: hidden;
   font-size: 2rem;
   filter: drop-shadow(5px 5px 8px #082032);
   z-index: 10;
-  transform: translateY(-13rem);
+  position: absolute;
+  transform: translateY(50rem);
 }
 
 .about-get-started-btn:hover{
@@ -290,9 +294,7 @@ overflow: hidden;
 }
 
 @media only screen and (max-width: 1010px){
-  .about-get-started-btn{
-    transform: translateY(-16rem);
-  }
+
 }
 
 
