@@ -160,15 +160,6 @@ justify-content: space-between;
 height: 100rem;
 }
 
-@media only screen and (min-width: 1600px){
-  #players{
-
-  }
-
-
-
-}
-
 .player-pic:hover{
   filter: drop-shadow(5px 5px 8px #082032);
   margin-bottom: 1rem;
@@ -194,6 +185,13 @@ transform: scale(1.01) translateX(1.2rem);
   transform: scale(0.3) translateY(330rem);
   margin-top: 5rem;
 }
+
+@media only screen and (max-width: 1235px){
+  .world-cup-balls{
+    margin-top: 3rem;
+  }
+}
+
 
 
 
